@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SegundaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEGUNDA TELA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome" />
+
+    <TextView
+        android:id="@+id/nome_edittext_segunda_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Inserido"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade" />
+
+    <TextView
+        android:id="@+id/idade_edittext_segunda_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade Inserida"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail" />
+
+    <TextView
+        android:id="@+id/email_edittext_segunda_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Inserido"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>

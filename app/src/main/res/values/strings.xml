@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PassarDadosEntreActivities</string>
+    <string name="seu_nome">Seu nome</string>
+    <string name="sua_idade">Sua idade</string>
+    <string name="seu_sexo">Seu sexo:</string>
+    <string name="ok">Ok</string>
+    <string name="seu_e_mail">Seu e-mail:</string>
+</resources>
